@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>INVOICE</title>
+    <script type="text/javascript">
+          function fn1(){
+               var hours =  document.getElementById("one").value;
+         
+               var one = hours*30;
+
+              alert(one);
+   //           alert() " one );,\
+            }
+ function fn2(){
+             var hours =  document.getElementById("one").value;
+         
+               var one = hours*30*0.15;
+
+              alert(one);
+   //           alert() " one );,\
+            }    
+    </script>
+</head>
+
+<body>
+    <div style="background-color: blueviolet; height: 60px;">
+    <h1 style="text-align:center; color: cornsilk; padding: 10px;">INVOICE</h1>
+    <br>
+    <br>
+    <h2 style="text-align: center;">Charge Per Hour  =  $30</h2>
+    <h2 style="text-align: center;">Tax On Charge   =  15%</h2>
+    <h2 style="text-align: center;">Number Of Hours = <input type="text" id="one" style="width: 50px;"></h2> 
+ 
+    <button type="submit" onclick="fn1()" style ="
+                                                 width: 160px; 
+                                                height: 30px; 
+                                                 top: 187px; 
+                                                  left: 230px;
+                                                margin-left: 600px" > 
+                                                  Total Before Tax</button>
+                                               <br> <br>  
+     <button type="submit" onclick="fn2()" style ="
+                                                  width: 160px; 
+                                                 height: 30px; 
+                                                  top: 187px; 
+                                                   left: 230px;
+                                                   margin-left: 600px"  > 
+                                                   Total After Tax</button>                                              
+
+    <!--<button id="one" onclick="fn1()">Enter</button>
+
+            -->         
+ </div>
+</body>
+</html>
